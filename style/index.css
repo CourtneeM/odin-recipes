@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 10%;
+}
+
+header h1 {
+  margin-left: 144px;
+  margin-top: 48px;
+  font-size: 48px;
+}
+
+main {
+  height: 80%;
+  width: 1147px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 193px auto 0;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.recipe-card a {
+  margin-bottom: 72px;
+  font-size: 36px;
+  color: #000;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 42px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+footer p {
+  margin: 5px;
+}
