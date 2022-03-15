@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../style/recipe-page.css" rel="stylesheet">
     <title>Burger Gogo</title>
   </head>
   <body>
     <header>
-      <h1>Odin Recipes</h1>
-      <a href="../index.html">Home</a>
-      <a href="./mario_bros_pizza.html">Mario Bros Pizza</a>
-      <a href="./starlight_treats.html">Starlight Treats</a>
+      <h1><a href="../index.html">Odin Recipes</a></h1>
+      <nav>
+        <a href="./mario_bros_pizza.html">Mario Bros Pizza</a>
+        <a href="./starlight_treats.html">Starlight Treats</a>
+        <a href="./burger_gogo.html">Burger Gogo</a>
+      </nav>
     </header>
-    <h1>Burger Gogo</h1>
-    <img src="../images/slider.jpg" alt="A delicious burger" style='width: 600px'>
-    <p>Impress with this delicious burger.</p>
-    <p>This burger features:</p>
-    <ul>
-      <li>Potato buns</li>
-      <li>Pickles, onions and peppers</li>
-      <li>Your choice of cheese</li>
-      <li>Ground chicken, turkey or beef</li>
-    </ul>
-    <p>Steps to make this burger:</p>
-    <ul>
-      <li>Gather the ingredients</li>
-      <li>Cook patty until ready</li>
-      <li>Place all ingredients in between the buns</li>
-      <li>Add desired condiments</li>
-      <li>Enjoy</li>
-    </ul>
+    <main>
+      <section class="col-med">
+        <h1>Burger Gogo</h1>
+        <p class="featured-text">This burger features:</p>
+        <ul class="featured-list">
+          <li>Potato buns</li>
+          <li>Pickles, onions and peppers</li>
+          <li>Your choice of cheese</li>
+          <li>Ground chicken, turkey or beef</li>
+        </ul>
+        <p class="recipe-steps-text">Steps to make this burger:</p>
+        <ul class="recipe-steps-list">
+          <li>Gather the ingredients</li>
+          <li>Cook patty until ready</li>
+          <li>Place all ingredients in between the buns</li>
+          <li>Add desired condiments</li>
+          <li>Enjoy</li>
+        </ul>
+      </section>
+      <section class="col-med">
+        <img src="../images/slider.jpg" alt="A delicious burger" style='width: 600px'>
+        <p>Impress with this delicious burger.</p>
+      </section>
+    </main>
   </body>
 </html>

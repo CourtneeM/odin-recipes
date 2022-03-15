@@ -2,3 +2,93 @@ body {
   margin: 0;
   padding: 0;
 }
+
+ul { padding: 0; }
+
+li { list-style: none; }
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 46px 0;
+}
+
+header h1 {
+  flex-basis: 100%;
+  margin: 0 0 0 146px;
+  font-size: 48px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+header nav {
+  flex-basis: 100%;
+  margin-right: 193px;
+  text-align: right;
+}
+
+header nav a {
+  margin-left: 46px;
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  display: flex;
+  margin-top: 105px;
+}
+
+main h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+main img {
+  width: 500px;
+  height: 500px;
+}
+
+.featured-text {
+  margin-top: 62px;
+  font-size: 16px;
+}
+
+.featured-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.featured-list li {
+  margin-bottom: 13px;
+}
+
+.recipe-steps-text {
+  margin-top: 76px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.recipe-steps-list {
+  margin-top: 52px;
+  font-size: 18px;
+}
+
+.recipe-steps-list li {
+  margin-top: 31px;
+}
+
+.col-med { width: 50%; }
+
+.col-med:nth-child(1) {
+  margin-left: 146px;
+}
+
+.col-med:nth-child(2) {
+  margin-right: 146px;
+}
